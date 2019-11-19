@@ -1,0 +1,293 @@
+.button__select {
+    border: none;
+    background-color: #F1C40F;
+    
+    width: 32%;
+    height: 40px;
+    
+    margin-bottom: 15px;
+    
+    font-size: 16px;
+}
+
+.container {
+    padding: 15px;
+    margin-right: 40px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.desc__h2 {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.desc__span {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.div-body {
+    padding: 10px;
+}
+
+.div-body__price {
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.div-body__text {
+    line-height: 1.8;
+}
+
+.div-title {
+    padding: 12px;
+    
+    background-color: #DDDDDD;
+}
+
+.div-title__text {
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.email-input {
+    display: block;
+}
+
+.email-input__email {
+    width: 25%;
+    height: 30px;
+    
+    margin-bottom: 5px;
+}
+
+.email-input__submit {
+    background-color: #F1C40F;
+    border: none;
+    
+    width: 140px;
+    height: 30px;
+    
+    margin-top: 10px;
+    
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.email-form__title {
+    font-size: 25px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    padding-left: 10%;
+}
+
+.features-container {
+    width: 80%;
+    margin: 70px auto;
+}
+
+.features__elem {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 75%;
+    
+    background-color: #DDDDDD;
+    
+    text-align: end;
+    
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-copyright {
+    margin-top: 5px;
+    
+    font-size: 0.9em;
+    color: #444;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav__elements {
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+
+.footer-nav__list-element {
+    display: inline;
+}
+
+.footer-nav__link {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+}
+
+.icon {
+    margin-right: 90px;
+}
+
+.icon__img {
+    max-width: 45px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #eee;
+    height: 10%;
+}
+
+.logo {
+    padding-top: 10px;
+    width: 50%;
+}
+
+.logo-img {
+    width: 55%;
+    height: auto;
+}
+
+.main {
+    margin-top: 120px;
+}
+
+.mail_container {
+    width: 75%;
+    margin: auto;
+    
+    text-align: center;
+}
+
+.navbar {
+    width: 50%;
+}
+
+.nav-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.page {
+    background-color: #eeeeee;
+    
+    font-family: lato, sans-serif;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    text-align: center;
+}
+
+.pricing__element {
+    border: 1px solid black;
+    
+    width: 32%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-container {
+    width: 75%;
+    height: auto;
+    
+    margin: 60px auto;
+}
+
+.video-container {
+    width: 75%;
+    margin: auto;
+    
+    display: block;
+    margin-top: 60px;
+    
+    text-align: center;
+}
+
+
+@media(max-width: 600px) {
+    .header {
+        width: 100%;
+        height: auto;
+        
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+    .logo {
+        margin-top: 15px;
+        width: 100%;
+        position: relative;
+        padding-top: 0;
+        
+        text-align: center;
+    }
+
+    .navbar {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav-panel {
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .container {
+        margin: 0;
+        padding: 5px;
+    }
+    
+    .main {
+        margin-top: 150px;
+    }
+    
+    .mail_container {
+        width: 100%;
+    }
+    
+    .email-input {
+        width: 100%;
+    }
+    
+    .email-input__email {
+        width: 50%;
+        height: 30px;
+    }
+    .email-input__submit {
+        
+    }
+}
+
